@@ -14,12 +14,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bottle93/WAR_FER_S_28_Furry-game.git"
+    "url": "git+https://github.com/bottle93/furry_game.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bottle93/WAR_FER_S_28_Furry-game/issues"
+    "url": "https://github.com/bottle93/furry_game.git/issues"
   },
-  "homepage": "https://github.com/bottle93/WAR_FER_S_28_Furry-game#readme"
+  "homepage": "https://github.com/bottle93/furry_game.git#readme"
 }
