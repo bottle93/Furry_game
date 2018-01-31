@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section#score {
+  width: 100%;
+}
+
+#board {
+  width: 640px;
+  height: 640px;
+  margin: 1em auto;
+}
+
+#board  > div {    
+  border: 1px solid black;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+
+section#score div {
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  padding: 0.5em;
+  background-color: lightblue;
+  box-shadow: 0 0 10px 1px blue;
+  border-radius: 10px;
+  margin: 1em auto;
+}
+
+
+
+
+.furry {
+  background-image: url('../images/furry.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coin {
+  background-image: url('../images/coin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section#over {
+  margin: 50px auto;
+  width: 50%;
+  height: 50%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+section#over div {
+  width: 100%;
+  text-align: center;
+  margin-top:30px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #333;
+}
+
+section#over .over-score {
+  font-size: 40px;
+  color: #555;
+}
+
+#new-game {
+  width: 40%;
+  border: 0 transparent;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: lightblue;
+  box-shadow: 0 0 15px 1px blue;
+}
+
+.invisible {
+  display: none;
+}
+
+section#board {
+  width: 640px;
+}
+
+section#board div {
+  width: 64px;
+  height: 64px;
+  border: 1px solid blue;
+  display: inline-block;
+}
